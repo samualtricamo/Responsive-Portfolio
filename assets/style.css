@@ -1,0 +1,244 @@
+body {
+	
+	background-repeat: repeat;
+	font-family: Arial;
+	font-size: 18px;
+	color: #777;
+	line-height: 28px;
+}
+ {
+	box-sizing: border-bo;
+}
+
+
+#container {
+    min-height: calc(100vh - 264px);
+   
+}
+
+        
+
+h1, h2 {
+	font-family: "Georgia";
+	color: #4aaaa5;
+	padding-bottom: 30px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 30px;
+	border-bottom: 2px solid #ccc;
+}
+
+h2 {
+	font-size: 22px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ccc;
+}
+
+#logo {
+	float: left;
+	display: block;
+	background-color: #4aaaa5;
+	color:#fff;
+	font-family: "Georgia";
+	font-size: 40px;
+	padding: 0 40px;
+	line-height: 90px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	display: block;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 90px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #999;
+	margin-left: 20px;
+	line-height: 22px;
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+}
+
+nav ul li:first-child a {
+	border-left: 0;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+        
+
+footer {
+	text-align: center;
+	background-color: #777;
+	color: #ccc;
+	line-height: 90px;
+	margin-top: 40px;
+	border-top: 8px solid #4aaaa5;
+	font-size: 12px;
+}
+
+        
+
+.module {
+	background-color: #fff;
+	padding: 30px;
+	border: 1px solid #ddd;
+}
+
+#content {
+	float: left;
+	width: 650px;
+}
+
+#social {
+	width: 270px;
+	float: right;
+	text-align: center;
+}
+
+#social img {
+	height: 40px;
+	width: auto;
+}
+
+#social a {
+	margin-right: 8px;
+}
+
+#social a:last-child {
+	margin-right: 0;
+}
+
+.profileimage {
+	float: left;
+	margin-right: 30px;
+}
+
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+    body {width: 768px:}
+    #container {width: 600x;}
+    nav {width: 768px;
+    text-align: left;}
+    header {width: 768px;}
+    #contact-form {width: 768px;}
+    #logo {width: 980px;}
+    #content {width: 768px;}
+    section {width: 20%;}
+    #email {width: 600px;}
+    #name {width: 600px;}
+    #message {width: 600px;}
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 600px:}
+    #container {width: 640px}
+    nav {width: 640px;}
+    header {width: 640px;
+    font-size: 30px;}
+    img {width: 300px;}
+    #contact-form {width: 640px;}
+    #logo {width: 640px;}
+    section {line-height: 30px;
+            font-size: 24px;
+            clear: left
+            }
+    .row {width: 10%;}
+    #profile-image {width: 40%;}
+    #email {width: 640px;}
+    #name {width: 640px;}
+    #message {width: 640px;}
+    .col-md-8 {width: 40px;}
+    }
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 980px:}
+    #container {width: 980px;}
+    nav {width: 980px;}
+    header {width: 980px;}
+    #contact-form {width: 980px;}
+    section {width: 980px;}
+    #logo {width: 640px;
+    text-align: left;}
+}
