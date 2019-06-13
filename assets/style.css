@@ -4,11 +4,9 @@ body {
 	font-family: Arial;
 	font-size: 18px;
 	color: #777;
-	line-height: 28px;
-}
+	line-height: 28px;}
  {
-	box-sizing: border-bo;
-}
+	box-sizing: border-box;}
 
 
 #container {
@@ -195,7 +193,7 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    body {width: 768px:}
+    body {width: 768px;}
     #container {width: 600x;}
     nav {width: 768px;
     text-align: left;}
@@ -203,7 +201,7 @@ nav a:hover {
     #contact-form {width: 768px;}
     #logo {width: 980px;}
     #content {width: 768px;}
-    section {width: 20%;}
+    
     #email {width: 600px;}
     #name {width: 600px;}
     #message {width: 600px;}
@@ -211,8 +209,8 @@ nav a:hover {
 
 @media only screen and (max-width: 640px) {
     body {
-        width: 600px:}
-    #container {width: 640px}
+        width: 600px;}
+    #container {width: 640px;}
     nav {width: 640px;}
     header {width: 640px;
     font-size: 30px;}
@@ -233,7 +231,7 @@ nav a:hover {
 
 @media only screen and (max-width: 980px) {
     body {
-        width: 980px:}
+        width: 980px;}
     #container {width: 980px;}
     nav {width: 980px;}
     header {width: 980px;}
