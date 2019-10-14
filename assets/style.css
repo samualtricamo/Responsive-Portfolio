@@ -1,9 +1,9 @@
 body {
-	background-image: url("../images/background.png");
+	background-image: url("./images/background.png");
 	background-repeat: repeat;
 	font-family: Arial;
 	font-size: 18px;
-	color: #777;
+	color: darkslategray;
 	line-height: 28px;
 }
 * {
@@ -22,7 +22,7 @@ body {
 
 h1, h2 {
 	font-family: "Georgia";
-	color: #4aaaa5;
+	color: darkslategray;
 	padding-bottom: 30px;
 	font-weight: bold;
 	text-align: left;
@@ -31,30 +31,30 @@ h1, h2 {
 
 h1 {
 	font-size: 30px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid darkslategray;
 }
 
 h2 {
 	font-size: 22px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid darkslategray;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
 header {
-	background-color: #fff;
+	background-image: url(./images/background.png);
 	margin-bottom: 40px;
-	border-bottom: 2px solid #ccc;
+	
 }
 
 #logo {
 	float: left;
 	display: block;
-	background-color: #4aaaa5;
-	color:#fff;
+
+	color:darkslategray;
 	font-family: "Georgia";
-	font-size: 30px;
-	padding: 0 40px;
+	font-size: 40px;
+	padding: 0px;
 	line-height: 90px;
 	font-weight: bold;
 	text-decoration: none;
@@ -75,11 +75,11 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: #999;
+	color: darkslategray;
 	margin-left: 20px;
-	line-height: 22px;
+	line-height: 25px;
 	padding-left: 20px;
-	border-left: 1px solid #ddd;
+	border-left: 1px solid darkslategray;
 }
 
 nav ul li:first-child a {
@@ -95,18 +95,15 @@ nav ul li:first-child a {
 
 footer {
 	text-align: center;
-	background-color: #777;
-	color: #ccc;
+	color: darkslategray;
 	line-height: 90px;
 	margin-top: 40px;
-	border-top: 8px solid #4aaaa5;
 	font-size: 12px;
 }
 
 .module {
-	background-color: #fff;
 	padding: 30px;
-	border: 1px solid #ddd;
+	border: 1px solid darkslategray;
 }
 
 #content {
@@ -227,4 +224,12 @@ nav a:hover {
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.resume-section {
+	color: black;
+
+}
+.about {
+	color: darkslategrey;
 }
