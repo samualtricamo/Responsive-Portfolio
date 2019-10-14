@@ -1,0 +1,22 @@
+DROP DATABASE IF EXISTS portfolio_contact;
+CREATE DATABASE portfolio_contact;
+USE portfolio_contact;
+
+CREATE TABLE name(
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  authorId INTEGER(11),
+  title VARCHAR(100),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE email(
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  email VARCHAR(100),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE message(
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  new_message VARCHAR(100),
+  PRIMARY KEY (id)
+);
